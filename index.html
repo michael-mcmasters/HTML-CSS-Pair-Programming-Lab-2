@@ -13,47 +13,47 @@
 
   <form action="" method="post">
 
-    <h1 id="header-one">Step 1: Your details</h1>
+    <h4 id="header-one">Step 1: Your details</h4>
 
-    <div>
+    <div class="input-container">
       <label for="name">Name</label>
       <input type="text" id="name" name="user_name" placeholder="First and last name">
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="email">E-mail</label>
       <input type="text" id="email" name="user_email" placeholder="example@domain.com">
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="phone">Phone</label>
       <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Eg. +447500000000">
     </div>
 
-    <h1>Step 2: Delivery Address</h1>
+    <h4>Step 2: Delivery Address</h4>
 
-    <div>
+    <div class="input-container">
       <label for="address">Address</label>
       <textarea type="text" id="address" name="user_address"></textarea>
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="post-code">Post code</label>
       <input type="text" id="post-code" name="user_post_code">
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="country">Country</label>
       <input type="text" id="country" name="country">
     </div>
 
 
 
-    <h1>Card details</h1>
+    <h4>Card details</h4>
 
 
     <label>Card type</label>
-    <div>
+    <div class="input-container">
       <input type="radio" id="visa" name="card-type">
       <label for="visa">Visa</label>
 
@@ -64,17 +64,17 @@
       <label for="mastercard">Mastercard</label>
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="card-number">Card number</label>
       <input type="text" id="card-number" name="card-number">
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="security-code">Security code</label>
       <input type="text" id="security-code" name="security-code">
     </div>
 
-    <div>
+    <div class="input-container">
       <label for="name-on-card">Name on card</label>
       <input type="text" id="name-on-card" name="name-on-card" pattern="[0-9]{16}"
         placeholder="Exact name as on the card">

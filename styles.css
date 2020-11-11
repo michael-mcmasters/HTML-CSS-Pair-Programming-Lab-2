@@ -1,11 +1,19 @@
+.input-container {
+  background-color: rgb(185, 207, 106);
+  padding: 1em;
+  border: 2px solid rgb(227, 235, 195);
+  margin: 0.1em;
+  border-radius: 10px;
+}
+
 form {
-    background-color: rgb(156, 188, 44);
-    width: fit-content;
-    margin: auto;
-    padding: 15px;
-    border-radius: 10px;
+  background-color: rgb(156, 188, 44);
+  width: fit-content;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 #header-one {
-    margin-top: 0;
+  margin-top: 0;
 }
