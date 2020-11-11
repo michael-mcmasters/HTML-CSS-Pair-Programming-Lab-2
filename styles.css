@@ -1,0 +1,11 @@
+form {
+    background-color: rgb(156, 188, 44);
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#header-one {
+    margin-top: 0;
+}
